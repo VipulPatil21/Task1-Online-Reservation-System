@@ -24,8 +24,9 @@ public class Railway1 extends User1 {
 				String contact=sc.next();
 				char con='6';
 				char con1='9';
-				if (contact.charAt(0)>=con&&contact.charAt(0)>=con1) {
+				if (contact.charAt(0)>=con&&contact.charAt(0)<=con1) {
 					u1.createAccount(name,contact);
+					System.out.println("Account Created");
 				}
 				else {
 					System.out.println("Please chek your contact number !");
