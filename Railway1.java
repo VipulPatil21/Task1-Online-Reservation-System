@@ -29,7 +29,7 @@ public class Railway1 extends User1 {
 					System.out.println("Account Created");
 				}
 				else {
-					System.out.println("Please chek your contact number !");
+					System.out.println("Please check your contact number !");
 				}
 				continue;
 			}
