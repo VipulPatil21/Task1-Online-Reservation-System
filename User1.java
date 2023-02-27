@@ -34,7 +34,7 @@ public class User1 {
 				this.from=from;
 				this.to=to;
 				this.train="SahyadriExpress";
-				System.out.println("Your train is buked !");
+				System.out.println("Your train is booked !");
 			}
 			else {
 				System.out.println("Check your PNR number !");
@@ -58,7 +58,7 @@ public class User1 {
 			if(this.pnr.equals(pnr)) {
 				this.train=null;
 				System.out.println("Your train is cancelled !");
-				System.out.println("your amounyt will be refund !");
+				System.out.println("your amount will be refund !");
 			}
 			else {
 				System.out.println("Check your PNR number");
