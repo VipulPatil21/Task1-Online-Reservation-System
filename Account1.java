@@ -11,7 +11,7 @@ public class Account1 {
 			this.contact=contact;
 		}
 		void displayAccount() {
-			System.out.println("Name: "+name);
+			System.out.println("Name is: "+name);
 			System.out.println("Contact is: "+contact);
 		}
 
