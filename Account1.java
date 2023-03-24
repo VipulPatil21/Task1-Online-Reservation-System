@@ -12,7 +12,7 @@ public class Account1 {
 		}
 		void displayAccount() {
 			System.out.println("Name: "+name);
-			System.out.println("Contact: "+contact);
+			System.out.println("Contact is: "+contact);
 		}
 
 	}
